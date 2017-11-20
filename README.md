@@ -5,14 +5,14 @@ Script to generate text geometry in a sauerbraten map by simply typing that text
 Based on cube2_typegen by Nyne. https://github.com/gitnyne/cube2_typegen.
 The font used in this script is part of GNU GRUB, licensed under the GPLv3.
 
-FEATURES
+FEATURES  
 - both uppercase and lowercase characters
 - punctuation marks
 - letters with diacritics
 - uppercase and lowercase cyrillic font
 - compatible with Linux, Windows, and Mac OS
 
-INSTALLATION
+INSTALLATION  
 - Extract the content of agtg.zip into your sauerbraten directory and press accept if asked to confirm merging the packages folder
 On Linux this is ~/.sauerbraten
 On Windows 7 and 10 this is C:\Users\%username%\Documents\My Games\Sauerbraten
@@ -21,7 +21,7 @@ On an Apple Mac it is most likely macHD/users/%username%/library/Application Sup
 exec agtg.cfg
 
 
-USAGE
+USAGE  
 In edit mode, select the right face of a cube pointing towards one specific direction. See the included agtg.png to see which, and move back so all generated text will appear in your field of vision.
 If you don't do this the generated text will be truncated to the part which can be generated in your view as you can only edit in sauerbraten on things which are inside your field of view.
 You probably want to use the smallest grid size but bigger text is also possible. with the right face of the cube selected, enter this command:
@@ -40,7 +40,7 @@ These are all the characters which you can generate. I believe they are also all
 ÁÀÄÂÃÅČĎÉÈËÊĚÍÌÏÎÑŇÓÒÖÔÕØŘŠŤÚÙÜÛŮÝŸŽŒÆaбвгдeëжзийклмнoпpcтyфxцчшщъыьэюяґїєAБBГДEËЖЗИЙKЛMHOПPCTУФXЦЧШЩЪЫЬЭЮЯҐЇЄ
 tip: you can paste text into the game using clients which use SDL2
 
-FONT SELECTION
+FONT SELECTION  
 I've included two fonts in the package. The first font, grubfont, is floating cubes forming the characters of the font. The second font, grubfontbbg (grub font black background), 
 is the same font but with black cubes around them forming a background. It is generally better to use grubfont to minimalize the wtr of your map.
 
@@ -52,7 +52,7 @@ so that is one of those two for now:
 you can autocomplete the font selection with tab.
 
 
-NOTES ON ADDING YOUR OWN FONT
+NOTES ON ADDING YOUR OWN FONT  
 if you want to add your own font, you have to add another folder to your packages folder and use the savebrush command to save each character as a .obr file. 
 For every character, select it and for example for the letter a, use:
 /savebrush yourfontname/a.obr
