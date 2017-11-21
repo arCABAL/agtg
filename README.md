@@ -39,9 +39,7 @@ You probably want to use the smallest grid size but bigger text is also possible
 /agtg Hello World!
 ```
 
-as you can see, you don't need to put double quotes "" around your input. However, if you want to generate text with characters which are interpreted by cubescript, 
-
-you do have to put double quotes around your input and escape some characters. Characters which mess up up the input are: ^;()[]"
+As you can see, you don't need to put double quotes "" around your input. However, if you want to generate text with characters which are interpreted by cubescript, you do have to put double quotes around your input and escape some characters. Characters which mess up up the input are: ^;()[]"
 You can escape these characters with a ^ in front. So for example, if you want to generate this string:  
 
 ```text 
@@ -54,7 +52,7 @@ You would use:
 /agtg "this is a string with a ^] and a ^; but which can still be generated"
 ```
 
-These are all the characters which you can generate. I believe they are also all the characters you can type into the game but let me (Discord: arCABAL#6439 and arCABAL on freenode) know if I missed any and I will add them.
+These are all the characters which you can generate. I believe they are also all the characters you can type into the game but let me (arCABAL on freenode and Discord: arCABAL#6439) know if I missed any and I will add them.
 
 ```text
 ?1234567890!@#$%^&*()`-=~_+[]\{}|;':^",./<> ßabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZáàäâãåčďéèëêěíìïîñňóòöôõøřšťúùüûůýÿžœæ
