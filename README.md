@@ -13,12 +13,13 @@ FEATURES
 - compatible with Linux, Windows, and Mac OS
 
 INSTALLATION  
-- Extract the content of agtg.zip into your sauerbraten directory and press accept if asked to confirm merging the packages folder
-On Linux this is ~/.sauerbraten
-On Windows 7 and 10 this is C:\Users\%username%\Documents\My Games\Sauerbraten
-On an Apple Mac it is most likely macHD/users/%username%/library/Application Support/sauerbraten/
-- add the following line to your autoexec.cfg inside your sauerbraten directory
-exec agtg.cfg
+1. First do this `git submodule init && git submodule update` (Init only matters if you have a fresh clone of the repo)
+2. Then copy agtg.cfg and packages into your sauerbraten directoy and press accept if asked to confirm merging the packages folder
+	On Linux this is ~/.sauerbraten
+	On Windows 7 and 10 this is C:\Users\%username%\Documents\My Games\Sauerbraten
+	On an Apple Mac it is most likely macHD/users/%username%/library/Application Support/sauerbraten/
+3. add the following line to your autoexec.cfg inside your sauerbraten directory
+	`exec agtg.cfg`
 
 
 USAGE  
