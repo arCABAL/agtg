@@ -44,7 +44,9 @@ as you can see, you don't need to put double quotes "" around your input. Howeve
 you do have to put double quotes around your input and escape some characters. Characters which mess up up the input are: ^;()[]"
 You can escape these characters with a ^ in front. So for example, if you want to generate this string:  
 
-```text this is a string with a ] and a ; but which can still be generated. ```
+```text 
+this is a string with a ] and a ; but which can still be generated.
+```
 
 You would use:
 
