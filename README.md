@@ -12,8 +12,9 @@ The font used in this script is part of GNU GRUB, licensed under the GPLv3.
 - compatible with Linux, Windows, and Mac OS
 
 ## INSTALLATION  
-1. First do this `git submodule init && git submodule update` (Init only matters if you have a fresh clone of the repo)
-2. Then copy agtg.cfg and packages into your sauerbraten directoy and press accept if asked to confirm merging the packages folder
+1. First download the projects zipfile and extract it or if you want to use git instead, use the following command after doing a fresh clone:
+`git submodule init && git submodule update` (Init only matters if you have a fresh clone of the repo)
+2. Then copy agtg.cfg and packages into your sauerbraten directory and press accept if asked to confirm merging the packages folder
 
 	On Linux this is ~/.sauerbraten
 
