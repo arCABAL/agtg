@@ -50,8 +50,10 @@ this is a string with a ] and a ; but which can still be generated. You would us
 
 These are all the characters which you can generate. I believe they are also all the characters you can type into the game but let me (Discord: arCABAL#6439 and arCABAL on freenode) know if I missed any and I will add them.
 
+```text
 ?1234567890!@#$%^&*()`-=~_+[]\{}|;':^",./<> ßabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZáàäâãåčďéèëêěíìïîñňóòöôõøřšťúùüûůýÿžœæ
 ÁÀÄÂÃÅČĎÉÈËÊĚÍÌÏÎÑŇÓÒÖÔÕØŘŠŤÚÙÜÛŮÝŸŽŒÆaбвгдeëжзийклмнoпpcтyфxцчшщъыьэюяґїєAБBГДEËЖЗИЙKЛMHOПPCTУФXЦЧШЩЪЫЬЭЮЯҐЇЄ 
+```
 
 Tip: you can paste text into the game using clients which use SDL2
 
