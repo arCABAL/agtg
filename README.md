@@ -82,7 +82,7 @@ If you want to add your own font, you have to add another folder to your package
 For every character, select it and for example for the letter a, use:
 
 ```text
-/savebrush yourfontname/a.obr
+/savebrush yourfontname/a
 ```
 
 Use the same filenames as used in grubfont and add your fontname on line 13 of agtg.cfg so agtgfont selection can tab autocomplete it
