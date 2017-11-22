@@ -11,20 +11,38 @@ The font used in this script is part of GNU GRUB, licensed under the GPLv3.
 - uppercase and lowercase cyrillic font
 - compatible with Linux, Windows, and Mac OS
 
-## INSTALLATION  
-1. First download the projects zipfile and extract it or if you want to use git instead, use the following command after doing a fresh clone:
-`git submodule init && git submodule update` (Init only matters if you have a fresh clone of the repo)
-2. Then copy agtg.cfg and packages into your sauerbraten directory and press accept if asked to confirm merging the packages folder
+## INSTALLATION
+### Method 1: Download and extract zip archives
+  
+1. Download agtg.cfg from this project and put it your sauerbraten custom content directory.
 
 	On Linux this is ~/.sauerbraten
 
-	On Windows 7 and 10 this is C:\Users\%username%\Documents\My Games\Sauerbraten
+	On Windows 7 and 10 this is C:\Users\\\%username%\Documents\My Games\Sauerbraten
 
 	On an Apple Mac it is most likely macHD/users/%username%/library/Application Support/sauerbraten/
+	
+2. Download the two folders `grubfont` and `grubfontbbg` from the linked grubfonts github project (packages @ 77efb77) and put them both inside sauerbraten/packages.
 
-3. add the following line to your autoexec.cfg inside your sauerbraten directory
+3. add the following line to your autoexec.cfg inside your sauerbraten directory:
 
 	`exec agtg.cfg`
+
+
+### Method 2: Use git.
+If you want to use git instead, use the following commands:
+
+
+```text
+git clone https://github.com/arCABAL/agtg.git
+	
+cd agtg
+	
+git submodule init && git submodule update
+```	
+(Init only matters if you have a fresh clone of the repo)
+	
+2. Then copy agtg.cfg and packages into your sauerbraten directory and press accept if asked to confirm merging the packages folder, and also add the `exec agtg.cfg` line to your autoexec.cfg
 
 
 ## USAGE  
@@ -59,7 +77,7 @@ These are all the characters which you can generate. I believe they are also all
 ÁÀÄÂÃÅČĎÉÈËÊĚÍÌÏÎÑŇÓÒÖÔÕØŘŠŤÚÙÜÛŮÝŸŽŒÆaбвгдeëжзийклмнoпpcтyфxцчшщъыьэюяґїєAБBГДEËЖЗИЙKЛMHOПPCTУФXЦЧШЩЪЫЬЭЮЯҐЇЄ 
 ```
 
-Tip: you can paste text into the game using clients which use SDL2
+Tip: you can paste text into the game using clients which use SDL2.
 
 ## FONT SELECTION
 
@@ -85,4 +103,4 @@ For every character, select it and for example for the letter a, use:
 /savebrush yourfontname/a
 ```
 
-Use the same filenames as used in grubfont and add your fontname on line 13 of agtg.cfg so agtgfont selection can tab autocomplete it
+Use the same filenames as used in grubfont and add your fontname on line 13 of agtg.cfg so agtgfont selection can tab autocomplete it.
