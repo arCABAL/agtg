@@ -55,5 +55,5 @@ you can autocomplete the font selection with tab.
 NOTES ON ADDING YOUR OWN FONT
 if you want to add your own font, you have to add another folder to your packages folder and use the savebrush command to save each character as a .obr file. 
 For every character, select it and for example for the letter a, use:
-/savebrush yourfontname/a.obr
+/savebrush yourfontname/a
 Use the same filenames as used in grubfont and add your fontname on line 13 of agtg.cfg so agtgfont selection can tab autocomplete it
