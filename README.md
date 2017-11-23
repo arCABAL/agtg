@@ -1,4 +1,7 @@
-﻿# arCABAL GRUB type generator for Cube 2 Sauerbraten
+## Example
+![helloworld](https://i.imgur.com/zDqeUvg.gif)
+
+# arCABAL GRUB type generator for Cube 2 Sauerbraten
 
 Script to generate text geometry in a sauerbraten map by simply typing that text into a command.
 Based on cube2_typegen by Nyne. https://github.com/gitnyne/cube2_typegen.
