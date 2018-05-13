@@ -51,7 +51,7 @@ git submodule init && git submodule update
 ```	
 (Init only matters if you have a fresh clone of the repo)
 	
-2. Then copy agtg.cfg and packages into your sauerbraten directory and press accept if asked to confirm merging the packages folder, and also add the `exec agtg.cfg` line to your autoexec.cfg
+2. Then copy agtg.cfg and packages into your sauerbraten directory and press accept if asked to confirm merging the packages folder, copy the `awesomefont` folder into packages, and also add the `exec agtg.cfg` line to your autoexec.cfg
 
 
 ## Usage
