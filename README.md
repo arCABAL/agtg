@@ -39,7 +39,7 @@ in that case, simply add an empty textfile called "autoexec.cfg" and add the lin
 
 
 ### Method 2: Use git.
-If you want to use git instead, use the following commands:
+1. If you want to use git instead, use the following commands:
 
 
 ```text
