@@ -104,7 +104,7 @@ You can autocomplete the font selection with tab.
 
 ## Notes on adding your own font
 
-if you want to add your own font, you have to add another folder to your packages folder and use the savebrush command to save each character as a .obr file. Save each character with the same naming structure as used for the other fonts. Make sure that your font's characters are oriented in the right direction when selecting and saving them as brushes in the game. Take a look at the small red cube origin, it should be at the front bottom left. 
+If you want to add your own font, you have to add another folder to your packages folder and use the savebrush command to save each character as a .obr file. Save each character with the same naming structure as used for the other fonts. Make sure that your font's characters are oriented in the right direction when selecting and saving them as brushes in the game. Take a look at the small red cube origin, it should be at the front bottom left. 
 
 For every character, select it and for example for the letter a use:
 
