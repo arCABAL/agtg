@@ -60,7 +60,7 @@ In edit mode, select the right face of a cube pointing towards one specific dire
 
 If you don't do this the generated text will be truncated to the part which can be generated in your view as you can only edit in sauerbraten on things which are inside your field of view.
 
-You probably want to use the smallest grid size but bigger text is also possible. with the right face of the cube selected, enter this command:  
+You probably want to use the smallest grid size but bigger text is also possible with bigger grid sizes. With the right face of the cube selected, enter this command:  
 
 ```text
 /agtg Hello World!
