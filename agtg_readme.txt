@@ -33,16 +33,16 @@ Method 2: Use git.
 
     If you want to use git instead, use the following commands:
 
-git clone https://github.com/arCABAL/agtg.git
+		git clone https://github.com/arCABAL/agtg.git
 	
-cd agtg
+		cd agtg
 	
-git submodule init && git submodule update
+		git submodule init && git submodule update
 
-(Init only matters if you have a fresh clone of the repo)
+	(Init only matters if you have a fresh clone of the repo)
 
-    Then copy agtg.cfg and packages into your sauerbraten directory and press accept if asked to confirm merging the packages folder, copy the awesomefont folder into packages, 
-and also add the exec agtg.cfg line to your autoexec.cfg
+    Then copy agtg.cfg and packages into your sauerbraten directory and press accept if asked to confirm merging the packages folder,
+    copy the awesomefont folder into packages, and also add the exec agtg.cfg line to your autoexec.cfg
 
 Usage
 
