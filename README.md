@@ -116,5 +116,6 @@ To save your uppercase A brush:
 
 ```text
 /savebrush yourfontname/UPPERCASE/a_UPPER
+```
 
 Also add your fontname to the `listcomplete agtgfont` list of agtg.cfg at line 10 so that agtgfont selection can tab autocomplete it.
