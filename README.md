@@ -34,8 +34,8 @@ The font used in this script is part of GNU GRUB, licensed under the GPLv3.
 
 	`exec agtg.cfg`
 	
-If this is the first script you've wanted to add to Sauerbraten, you won't have an "autoexec.cfg" file, 
-in that case, simply add an empty textfile called "autoexec.cfg" and add the line.
+If this is the first script you've wanted to add to Sauerbraten, you will not have an "autoexec.cfg" file. 
+In that case, simply create a textfile called "autoexec.cfg" and paste the exec line into it.
 
 
 ### Method 2: Use git.
