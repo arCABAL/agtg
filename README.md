@@ -90,13 +90,14 @@ Tip: you can paste text into the game using clients which use SDL2.
 
 ## Font selection
 
-There are two fonts in the packages submodule. The default font, grubfont, consists of small floating white cubes forming the characters. The second font, grubfontbbg (grub font black background), is the same font but with black cubes around them forming a background. It is generally better to use grubfont to minimalize the wtr of your map. 
+There are two fonts in the packages submodule. The default font, grubfont, consists of small floating white cubes forming the characters. The second font, grubfontbbg (grub font black background), is the same font but with black cubes around them forming a background. It is generally better to use grubfont to minimalize the wtr of your map. I've also added a font with smooth curves called 'awesomefont', in contrast to the pixelated grubfont which consists only of blocks. Awesomefont does not have the cyrillic characters.
 
-you can select a font using /agtgfont nameofthefont so that is one of those two for now:
+you can select a font using /agtgfont nameofthefont so that is one of those three:
 
 ```text
 /agtgfont grubfont  
 /agtgfont grubfontbbg  
+/agtgfont awesomefont
 ```
 
 You can autocomplete the font selection with tab.
@@ -104,12 +105,17 @@ You can autocomplete the font selection with tab.
 
 ## Notes on adding your own font
 
-if you want to add your own font, you have to add another folder to your packages folder and use the savebrush command to save each character as a .obr file. Save each character with the same naming structure as used for the other fonts. Make sure that your font's characters are oriented in the right direction when selecting and saving them as brushes in the game. Take a look at the small red cube origin, it should be at the front bottom left.
+if you want to add your own font, you have to add another folder to your packages folder and use the savebrush command to save each character as a .obr file. Save each character with the same naming structure as used for the other fonts. Make sure that your font's characters are oriented in the right direction when selecting and saving them as brushes in the game. Take a look at the small red cube origin, it should be at the front bottom left. 
 
-For every character, select it and for example for the letter a, use:
+For every character, select it and for example for the letter a use:
 
 ```text
 /savebrush yourfontname/a
 ```
+
+To save your uppercase A brush:
+
+```text
+/savebrush yourfontname/UPPERCASE/a_UPPER
 
 Also add your fontname to the `listcomplete agtgfont` list of agtg.cfg at line 10 so that agtgfont selection can tab autocomplete it.
