@@ -82,7 +82,7 @@ You would use:
 These are all the characters which you can generate. I believe they are also all the characters you can type into the game.
 
 ```text
-?1234567890!@#$%^&*()`-=~_+[]\{}|;':^",./<> ßabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZáàäâãåčďéèëêěíìïîñňóòöôõøřšťúùüûůýÿžœæ
+?1234567890!@#$%^&*()`-=~_+[]\{}|;':^",./<>ß abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZáàäâãåčďéèëêěíìïîñňóòöôõøřšťúùüûůýÿžœæ
 ÁÀÄÂÃÅČĎÉÈËÊĚÍÌÏÎÑŇÓÒÖÔÕØŘŠŤÚÙÜÛŮÝŸŽŒÆaбвгдeëжзийклмнoпpcтyфxцчшщъыьэюяґїєAБBГДEËЖЗИЙKЛMHOПPCTУФXЦЧШЩЪЫЬЭЮЯҐЇЄ 
 ```
 
