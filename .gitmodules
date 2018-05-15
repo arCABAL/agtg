@@ -2,3 +2,6 @@
 	path = packages
 	url = https://github.com/arCABAL/grubfonts.git
 	shallow = true
+[submodule "grubfonts"]
+	path = grubfonts
+	url = https://github.com/arCABAL/grubfonts.git
