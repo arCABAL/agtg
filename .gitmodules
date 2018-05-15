@@ -1,4 +1,4 @@
 [submodule "packages"]
 	path = packages
-	url = https://github.com/the1337guy/grubfonts.git
+	url = https://github.com/arCABAL/grubfonts.git
 	shallow = true
