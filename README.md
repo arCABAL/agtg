@@ -25,7 +25,7 @@ The font used in this script is part of GNU GRUB, licensed under the GPLv3.
 
 	On an Apple Mac it is most likely macHD/users/%username%/library/Application Support/sauerbraten/
 	
-2. Download the two folders `grubfont` and `grubfontbbg` from the linked grubfonts github project (packages @ 77efb77) and put them both inside sauerbraten/packages.
+2. Download the two folders `grubfont` and `grubfontbbg` from the linked grubfonts github project (grubfonts @ 4ad97a2) and put them both inside sauerbraten/packages.
 
 3. Download the folder `awesomefont` and put it inside sauerbraten/packages
 
